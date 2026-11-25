@@ -17,8 +17,8 @@ Ez a repository a hippokampális CA3 piramissejtek dendritikus kalcium-spike-jai
 - `src/gKCa_shelldepth.m` – Kétdimenziós paraméterrácsvizsgálat ($G_{\text{KCa}} \times$ shell_depth). TTX-analóg ($G_{\text{Na}} = 0$) körülmények között, $0.8\,\text{nA}$-es dendritikus áraminjekcióval ($0.5\text{–}1.5\,\text{s}$) 30 paraméterkombinációt futtat le (`kca_mults = [0.25, 0.5, 1, 2, 4]`, `shell_mults = [1, 2, 5, 10, 20, 50]`), majd kirajzolja a maximális dendritikus membránpotenciál és a maximális $[\text{Ca}^{2+}]$ hőtérképeit, valamint kiírja a `T_summary` összegző táblázatot.
 
 ### Segédfüggvények (kapuzási kinetika)
-- `src/PR_dend_gating.m` – A dendritikus kompartment ioncsatornáinak feszültségfüggő kapuzási sebességi állandóit és egyensúlyi értékeit számító segédfüggvény.
-- `src/PR_soma_gating.m` – A szomatikus kompartment ioncsatornáinak kapuzási kinetikáját számító segédfüggvény.
+- `PR_dend_gating.m` – A dendritikus kompartment ioncsatornáinak feszültségfüggő kapuzási sebességi állandóit és egyensúlyi értékeit számító segédfüggvény.
+- `PR_soma_gating.m` – A szomatikus kompartment ioncsatornáinak kapuzási kinetikáját számító segédfüggvény.
 
 ## Követelmények és használat
 1. **Környezet:** MATLAB (R2021a vagy újabb ajánlott).
